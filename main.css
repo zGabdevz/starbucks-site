@@ -1,0 +1,93 @@
+/* Basics */
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+    text-decoration: none;
+    list-style:none;
+}
+
+html, body{
+    overflow-y:hidden;
+    overflow-x:hidden;
+}
+
+/* Navbar */
+.nav{
+    background-color:white;
+    padding: 10px 20px;
+}
+.nav__menu{
+    align-items:center;
+}
+
+.nav__logo, img{
+    float:left;
+    width:80px;
+    height:50px;
+}
+.nav__options, li a{
+
+    color:rgb(58, 57, 57);
+
+    margin: 15px;
+
+    display:flex;
+    justify-content: flex-end;
+    align-items:center;
+}
+
+/* Section card */
+.card{
+    position:relative;
+    height:85vh;
+
+    display:flex;
+}
+.card__text{
+    margin: 80px 50px;
+    width:350px;
+    height:100%;
+}
+.card__text h1, h2{
+    font-size:40px;
+}
+.card__text p{
+    margin: 30px 2px;
+}
+.card__text span{
+    color:#017143;
+}
+.card__button button{
+    color:white;
+    background-color: #017143;
+
+    border:none;
+    border-radius: 40px;
+
+    width:120px;
+    height:40px;
+}
+.card__button button:hover{
+    background-color: #017142ca;
+}
+.card__background{
+    
+    position:absolute;
+
+    background-color: #017143;
+    border-radius: 50%;
+
+    width:600px;
+    height:500px;
+    right:-150px;
+    bottom:-120px;
+}
+.card__image img{
+    position:absolute;
+
+    bottom:200px;
+    left: 5px;
+    width:300px;
+    height:400px;
+}
