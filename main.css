@@ -12,6 +12,10 @@ html, body{
     overflow-x:hidden;
 }
 
+h1, h2{
+    color:rgb(58, 57, 57);
+}
+
 /* Navbar */
 .nav{
     background-color:white;
@@ -78,15 +82,15 @@ html, body{
     background-color: #017143;
     border-radius: 50%;
 
-    width:600px;
-    height:500px;
-    right:-150px;
-    bottom:-120px;
+    width:700px;
+    height:600px;
+    right:-250px;
+    bottom:-220px;
 }
 .card__image img{
     position:absolute;
 
-    bottom:200px;
+    bottom:260px;
     left: 5px;
     width:300px;
     height:400px;
