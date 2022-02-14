@@ -40,6 +40,11 @@ h1, h2{
     justify-content: flex-end;
     align-items:center;
 }
+.nav__options, li a:hover{
+    color:gray;
+}
+
+
 
 /* Section card */
 .card{
@@ -47,14 +52,18 @@ h1, h2{
     height:85vh;
 
     display:flex;
+    flex-wrap: wrap;
 }
+
+
+/* text content */
 .card__text{
     margin: 80px 50px;
-    width:350px;
+    width:440px;
     height:100%;
 }
 .card__text h1, h2{
-    font-size:40px;
+    font-size:50px;
 }
 .card__text p{
     margin: 30px 2px;
@@ -62,6 +71,10 @@ h1, h2{
 .card__text span{
     color:#017143;
 }
+
+
+
+/* button content */
 .card__button button{
     color:white;
     background-color: #017143;
@@ -75,6 +88,10 @@ h1, h2{
 .card__button button:hover{
     background-color: #017142ca;
 }
+
+
+
+/* right div background */
 .card__background{
     
     position:absolute;
@@ -83,15 +100,42 @@ h1, h2{
     border-radius: 50%;
 
     width:700px;
-    height:600px;
-    right:-250px;
+    height:650px;
+    right:-300px;
     bottom:-220px;
 }
 .card__image img{
     position:absolute;
 
-    bottom:260px;
+    bottom:290px;
     left: 5px;
     width:300px;
     height:400px;
+}
+
+
+/* thumbs above */
+.card__thumbs{
+    position:absolute;
+    bottom:15px;
+    right: 44%;
+}
+.card__thumbs ul{
+    display:flex;
+}
+.card__thumbs ul li img{
+    margin: 0 10px;
+    width:40px;
+    height:60px;
+}
+
+/* right social medias */
+.card__social-media{
+    position:absolute;
+    right:6px;
+    bottom:50%; 
+}
+.card__social-media img{
+    width:15px;
+    height:20px;
 }
