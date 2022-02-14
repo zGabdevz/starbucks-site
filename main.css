@@ -134,7 +134,7 @@ h1, h2{
     position:absolute;
     right:6px;
     bottom:50%; 
-    pointer:cursor;
+    cursor: pointer
 }
 .card__social-media img{
     width:15px;
