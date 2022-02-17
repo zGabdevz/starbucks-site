@@ -114,7 +114,7 @@ h1, h2{
 }
 
 
-/* thumbs above */
+/* thumbs below */
 .card__thumbs{
     position:absolute;
     bottom:15px;
