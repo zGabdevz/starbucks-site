@@ -7,4 +7,4 @@ e adaptação das funções da navbar
 e botão de menu com JavaScript.
 
 * Criado por Gabriel França.
-* Github: zgabdevz.
+* Github: zGabdevz.
